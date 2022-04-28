@@ -1,0 +1,179 @@
+@media (max-width: 1140px) {
+  .opentype_content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .opentype_content_text {
+    font-size: 45px;
+  }
+
+  .opentype_img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  .testimonials_item {
+    width: 90%;
+  }
+
+  .features_wrapper {
+    flex-direction: column;
+    gap: 150px;
+  }
+
+  .features_img_two {
+    right: 50%;
+    bottom: -50px;
+    transform: translateX(50%);
+  }
+
+  .features_content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .features_item {
+    width: 30%;
+  }
+
+  .features_item_title {
+    min-height: 48px;
+  }
+
+  .opentype_wrapper {
+    flex-direction: column;
+    background: none;
+    text-align: center;
+    align-items: center;
+  }
+
+  .opentype_content {
+    align-items: center;
+  }
+
+  .opentype_img {
+    display: none;
+  }
+
+  .opentype_img_mobile {
+    display: inline-block;
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .features_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features_item {
+    width: 290px;
+  }
+
+  .text {
+    max-width: 590px;
+    width: 100%;
+  }
+
+  .partners_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .partners_img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .promo {
+    background: none;
+  }
+
+  .gallery_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+  }
+
+  .gallery_img {
+    display: none;
+  }
+
+  .gallery_img_mobile {
+    border-radius: 20px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 400px) {
+  .partners_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .promo {
+    padding: 90px 0 40px;
+  }
+
+  .btn_blue {
+    margin: 0 5px;
+  }
+
+  .btn_right {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .indentation {
+    padding: 70px 0 70px;
+  }
+
+  .logo_img {
+    width: 150px;
+  }
+
+  .features_wrapper_img {
+    width: 90%;
+  }
+
+  .сontents_item {
+    min-height: 500px;
+    padding: 50px 15px 40px;
+  }
+
+  .gallery_img_mobile {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .btn_opentype {
+    padding: 14px 54px;
+  }
+
+  .opentype_content_text {
+    font-size: 33px;
+  }
+
+  .testimonials_item {
+    padding: 40px 30px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+}
